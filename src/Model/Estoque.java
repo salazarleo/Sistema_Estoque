@@ -1,3 +1,4 @@
+package Model;
 import java.util.ArrayList;
 
 public class Estoque {
@@ -25,7 +26,7 @@ public class Estoque {
     }
 
     public void removerProduto(int idProduto) {
-        produtos.removeIf(produto -> produto.getID() == idProduto);
+        produtos.removeIf(produto -> produto.getProdutoID() == idProduto);
     }
 
     public void imprimir() {

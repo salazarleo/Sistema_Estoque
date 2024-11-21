@@ -1,3 +1,4 @@
+package Model;
 abstract class Item {
     private static int idCounter = 1;
     private final int ID;
